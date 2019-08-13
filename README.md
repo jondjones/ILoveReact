@@ -24,19 +24,17 @@ This is an open-source repo.  If you would like to add something or correct a mi
 
 ## Projects
 
--   [Portfolio](./react-apps/portfolio)
--   [Todo App](./react-apps/todo-app)
--   [Webpack Boilerplate](./webpack-boilerplate)
-
-## Online Version 
-
-[Introduction - ILOVEReact](./book/ILOVEJAVSCRIPT.md)  
-[Chapter 01 - Datatypes](./book-101/RESOURCES.md)  
-[Appendix 2 - My Dev Set-up](./book/APPENDIX.md)  
+-   [Portfolio](./apps/portfolio)
+-   [Todo App](./apps/todo-app)
+-   [Web-pack Boilerplate](./apps/webpack-boilerplate)
 
 # Contributing
 
 :construction: Open an [issue](https://github.com/jondjones/ILoveReact/issues) or a [pull request](https://github.com/jondjones/ILoveReact) to suggest changes or additions.  :construction: 
+
+If you like the content you find here, and want to support more content like it and you'd like to contribute financially towards the effort (or any of my other, I do have a patreon that I would always appreciate your generosity towards.
+
+<a href="https://www.patreon.com/jondjones">![patreon.com/jondjones](./img/patreon.png)</a>
 
 # Build The Book
 

@@ -19,6 +19,10 @@
 -   :star: [React Today and Tomorrow and 90% Cleaner React With Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM)
 -   [React: CSS in your JS by Christopher Chedeau](https://vimeo.com/116209150)
 
+## Design Patterns
+
+-   [React Patterns](https://reactpatterns.com/)
+
 ## React Documentation
 
 -   [React Component](https://reactjs.org/docs/react-component.html)  
