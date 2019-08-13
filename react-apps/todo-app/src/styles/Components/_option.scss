@@ -1,0 +1,12 @@
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $s-size;
+    border-bottom: 1px solid lighten($light-blue,10%);
+}
+
+.option__text {
+    color:white;
+    word-break: break-all;
+    text-transform: uppercase;
+}

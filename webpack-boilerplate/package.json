@@ -1,0 +1,27 @@
+{
+  "name": "jondjones-boilerplate-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --mode development",
+    "live-server": "webpack --mode production",
+    "server": "live-server public/",
+    "build": "babel src/index.js --out-file public/scripts/bundle.js --presets env --watch"
+  },
+  "author": "J Jones",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "live-server": "^1.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.5"
+  }
+}
