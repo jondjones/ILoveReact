@@ -1,0 +1,6 @@
+@import "./components/App/App";
+@import "@ynap/myaccount-landing/lib/mrp";
+@import "@ynap/spinner/lib/mrp";
+@import "@ynap/overlay/lib/mrp";
+@import "@ynap/myaccount-nav/lib/mrp";
+@import "@ynap/address-book/lib/mrp/mrp";

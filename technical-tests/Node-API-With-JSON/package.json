@@ -1,0 +1,58 @@
+{
+    "name": "tech-test",
+    "version": "0.0.1",
+    "description": "Simple single page app",
+    "scripts": {
+        "start": "parcel index.html",
+        "backend": "node server/index.js",
+        "dev:backend": "nodemon server/index.js",
+        "dev:app": "parcel index.html",
+        "dev": "concurrently \"npm run start\" \"npm run backend\"",
+        "test": "npx jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "axios-hooks": "^1.9.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.2",
+        "prop-types": "^15.7.2",
+        "react": "^16.0.0",
+        "react-dom": "^16.8.6",
+        "react-redux": "^6.0.1",
+        "redux": "^3.1.0 || ^4.0.0",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^5.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/plugin-proposal-class-properties": "^7.3.4",
+        "@babel/plugin-transform-runtime": "^7.2.0",
+        "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/preset-stage-2": "^7.0.0",
+        "@svgr/parcel-plugin-svgr": "^4.1.0",
+        "autoprefixer": "^9.4.8",
+        "babel-eslint": "^10.0.1",
+        "babel-jest": "^24.5.0",
+        "concurrently": "^4.1.0",
+        "enzyme": "^3.9.0",
+        "enzyme-adapter-react-16": "^1.11.2",
+        "jest": "^24.5.0",
+        "parcel": "^1.11.0",
+        "parcel-bundler": "^1.11.0",
+        "prettier": "^1.16.4",
+        "sass": "^1.17.2",
+        "supertest": "^4.0.2"
+    },
+    "jest": {
+        "automock": false,
+        "moduleNameMapper": {
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+            "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
+        }
+    }
+}

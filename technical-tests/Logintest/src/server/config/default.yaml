@@ -1,0 +1,93 @@
+---
+  business: mrp
+
+  # Server
+  server:
+    port: 8081
+
+  # Configure outgoing http(s) requests
+  peerRequest:
+    timeout: 5000 #ms
+
+  # Configure outgoing http(s) requests (clientside)
+  clientRequest:
+    timeout: 10000 #ms
+    delay: 200 #ms
+
+  # Logs
+  logger:
+    level: info
+    pretty: false
+
+  # Keen Config
+  keen:
+    projectId: 56d8224359949a5ed72f9cc0
+    writeKey: 9e5da548b86577113e5c71494c0dff7e68bb08026b94833904480c21ebcca23e865c9dc9a1d65cd951aa073313e2052b197a699762ee8f11b51b92f4ce8022f9f320a090fb5277f7a7b7bc0d8499697455487f32adca1d5d6fed5d8b331abe09
+
+  # Assets
+  assets:
+    baseUrl: //s3-eu-west-1.amazonaws.com/myaccount-mrp-assets/my-account-mrp/
+
+  # Unauthorised redirect url
+  unauthorisedRedirect: /{language}-{country}/signin.mrp
+
+  # Site furniture API
+  siteFurnitureService:
+    baseUrl: http://mrpxitefurniture-prod1.elasticbeanstalk.com/layouts/mrporter
+    maxSize: 500
+    maxAge: 600
+    staleWhileRevalidate: 15768000
+
+  # Country service endpoint
+  countryService:
+    dataUrl: https://www.mrporter.com/countryservice/1/mrporter.json
+
+  watsonService:
+    baseUrl: https://services.net-a-porter.com/account/
+    brandId: mrporter
+
+  captchaService:
+    baseUrl: https://services.net-a-porter.com/
+
+  # Homepage content
+  pages:
+    - id: "myAccountLanding"
+      to: "/account"
+    - id: "eipprivileges"
+      href: "/{language}-{country}/eipbenefits"
+    - id: "myorders"
+      href: "/{language}-{country}/customerorders.mrp"
+    - id: "wishlist"
+      href: "/{language}-{country}/wishlist"
+    - id: "mywardrobe"
+      href: "/{language}-{country}/inventory"
+    - id: "addressBook"
+      href: "/{language}-{country}/customeraddresses.mrp"
+    - id: "favouritedesigners"
+      href: "/{language}-{country}/customerpreferences.mrp"
+    - id: "emailpreferences"
+      href: "/{language}-{country}/myaccount.mrp?forwardTo=emailSettings"
+    - id: "reservations"
+      href: "/{language}-{country}/customerreservations.mrp"
+    - id: "accountdetails"
+      href: "/{language}-{country}/accountdetails.mrp"
+    - id: "managecards"
+      href: "/{language}-{country}/updatecards.mrp"
+    - id: "giftcards"
+      href: "/{language}-{country}/customervouchers.mrp"
+    - id: "storecredit"
+    - id: "managegiftcodes"
+      href: "/adminvouchersearch.mrp"
+
+  # Titles
+  titles:
+    - mr
+    - ms
+    - mrs
+    - sir
+    - lord
+    - dr
+    - prof
+    - rev
+
+  loginFeatureEnabled: false

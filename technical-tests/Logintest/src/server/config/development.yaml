@@ -1,0 +1,40 @@
+---
+  # Logs
+  logger:
+    level: debug
+    pretty: true
+
+  # Keen Config
+  keen:
+    projectId:
+    writeKey:
+
+  # Assets
+  assets:
+    baseUrl: /assets/
+    scripts: |
+      <script src="/assets/ma.bundle.js" defer></script>
+    styles: |
+      <link rel="stylesheet" text="text/css" href="/assets/ma.bundle.css" />
+
+  # Site furniture API
+  siteFurnitureService:
+    baseUrl: http://mrpxitefurniture-dev.elasticbeanstalk.com/layouts/mrporter
+    maxSize: 500
+    maxAge: 60
+    staleWhileRevalidate: 15768000
+
+  # Country service endpoint
+  countryService:
+    dataUrl: https://s3-eu-west-1.amazonaws.com/ynap-countryservice-dev/1/mrporter.json
+
+  watsonService:
+    baseUrl: /
+
+  captchaService:
+    baseUrl: https://captcha.services-dev.ext.net-a-porter.com/
+
+  # Use mocks module
+  useMocks: true
+
+  loginFeatureEnabled: true

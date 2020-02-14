@@ -1,0 +1,117 @@
+@import "@ynap/hive-vars/mrp";
+
+.App {
+    margin: 40px 10px;
+    position: relative;
+    min-height: 60vh;
+
+    @media(--tablet) {
+        margin-left: 15px;
+        margin-right: 15px;
+        min-height: 90vh;
+    }
+
+    @media (--desktop) { 
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.App--myAccountLanding {
+    & .App__toggleOverlay {
+        display: none;
+    }
+}
+
+.App__toggleOverlay {
+    & > button {
+        font-family: Georgia;
+        font-size: 16px;
+        margin: 10px 0 0;
+        float: right;
+        color: #838383; 
+        border: none;
+        background: none;
+        padding: 0;
+        text-decoration: underline;
+        
+        &:hover {
+            color: #000000;
+        }
+
+        @media(--desktop) {
+            display: none;
+        }
+    }
+}
+
+
+.App__row {
+    @media(--desktop) {
+        display: flex;
+    }
+
+    & .App__nav {
+        display: none;
+        width: 25%;
+        background: #F0F0F0;
+        padding: 16px;
+        min-height: 90vh;
+
+        @media(--desktop) {
+            display: block;
+        }
+    }
+}
+
+/*** LOGIN ***/
+.App__login {
+    max-width: 470px;
+    margin: 60px auto;
+    opacity: 0.92;
+    background-color: #ececec;
+    padding: 30px 60px;
+    font-family: Georgia;
+
+    & h2 {
+        font-size: 32px;
+        font-weight: normal;
+        margin: 0 0 20px;
+    }
+
+    & fieldset {
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    & label {
+        font-size: 14px;
+        display: block;
+        margin: 0 0 5px 0;
+    }
+
+    & input {
+        background: white;
+        font-family: Georgia;
+        font-size: 14px;
+        border: 1px solid #cbcbcb;
+        margin-bottom: 20px;
+        padding: 10px 5px;
+        width: 100%;
+    }
+
+    & button  {
+        border: 0;
+        background: black;
+        text-align: center;
+        border-radius: 2px;
+        color: #FFF;
+        padding: 10px 0;
+        font-family: Georgia;
+        font-size: 14px;
+        font-weight: normal;
+        color: #FFF;
+        width: 100%;
+    }
+}
