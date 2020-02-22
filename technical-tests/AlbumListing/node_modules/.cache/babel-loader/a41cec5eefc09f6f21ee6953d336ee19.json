@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports = function (exec) {\n  try {\n    return {\n      error: false,\n      value: exec()\n    };\n  } catch (error) {\n    return {\n      error: true,\n      value: error\n    };\n  }\n};","map":null,"metadata":{},"sourceType":"script"}

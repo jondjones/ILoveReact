@@ -1,29 +1,24 @@
 # #ILOVEReact :heart_eyes: - By JONDJONES.COM 
 
-\#ILOVEReact is an on-going collaboration of tutorials, packages, meet-ups and ideas of all things React.  The aim of this project is to help web developers become true software crafts people.  Why waste hours trying to remember that website you once found randomly Googling.  This area is a on-stop shop to get you set-up and building applications. 
+\#ILOVEReact is an on-going collaboration of code, components, tech tests and proof of concepts all  written using React.js.  The aim of this project is to help other developers become true software crafts people.  
 
 :star: **Don't forget to star this app as it's updated frequently** :star:
 
 This is an open-source repo.  If you would like to add something or correct a mistake, please open a PR.
 
-# :rocket: #ILOVEReact Book :rocket:
-
-## Download
-
--   [#ILOVEReact.epub](build/epub/book.epub)
--   [#ILOVEReact.pdf](build/pdf/book.pdf)
-
-## Online Version 
-
-[Introduction - ILOVEReact](./book/ILOVEJAVSCRIPT.md)  
-[Chapter 01 - Testing](./react-101/testing.md)  
-[Chapter 02 - Code Examples](./react-101/02-code-sample.md)  
-[Appendix 1 - My Dev Set-up](./book/APPENDIX.md)  
-
 # :rocket: Resources :rocket:
+
+-   [Resources](./RESOURCES.md)
 
 ## Projects
 
+-   [Album Listing](./technical-tests/AlbumListing)
+-   [Hacker News](./technical-tests/HackerNews)
+-   [LoginForm](./technical-tests/LoginForm)
+-   [Monster Wars](./technical-tests/MonsterWars)
+-   [NodeAPIWithJSON](./technical-tests/NodeAPIWithJSON)
+-   [RenderTable](./technical-tests/RenderTable)
+-   [StarCards](./technical-tests/StarCards) Written using type-script, styled-components and react testing library
 -   [Portfolio](./apps/portfolio)
 -   [Todo App](./apps/todo-app)
 -   [Web-pack Boilerplate](./apps/webpack-boilerplate)
@@ -35,21 +30,6 @@ This is an open-source repo.  If you would like to add something or correct a mi
 If you like the content you find here, and want to support more content like it and you'd like to contribute financially towards the effort (or any of my other, I do have a patreon that I would always appreciate your generosity towards.
 
 <a href="https://www.patreon.com/jondjones">![patreon.com/jondjones](./img/patreon.png)</a>
-
-# Build The Book
-
-You can build the book yourself by running these commands:
-
-```sh
-make
-```
-
-```sh
-make pdf
-make epub
-```
-
-The generated files will be placed in *build/*.
 
 # Authors
 

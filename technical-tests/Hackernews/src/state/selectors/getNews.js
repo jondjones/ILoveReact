@@ -1,7 +1,8 @@
 const getVariants = state => {
-    console.log(state)
+    const data = state?.news?.columns?.data;
     return { 
-        state
+        news: data,
+        hasNews: data !== undefined
     }
 };
 

@@ -19,10 +19,11 @@ const fetchDataError = error => ({
     error
 });
 
-const fetchData = () => async (dispatch) => {
+const fetchData = (pageNumber = 1) => async (dispatch) => {
     fetchDataRequest();
-
-    return axios.get('https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty')
+    const api = `https://api.hnpwa.com/v0/newest/${pageNumber}.json`;
+    console.log(api)
+    return axios.get(api)
         .then(response => {
             dispatch(fetchDataSuccess(response));
         })

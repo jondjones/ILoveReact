@@ -1,7 +1,9 @@
 .DS_Store
-technical-tests/albumn-Listing/node_modules
-technical-tests/Hackernews/node_modules
-technical-tests/albumn-Listing/node_modules
-technical-tests/Logintest/node_modules
-technical-tests/Node-API-With-JSON/node_modules
-technical-tests/Render-table/node_modules
+technical-tests/AlbumnListing/node_modules
+technical-tests/HackerNews/node_modules
+technical-tests/LoginForm/node_modules
+technical-tests/MonsterAttack/node_modules
+technical-tests/NodeAPIWithJSON/node_modules
+technical-tests/RenderTable/node_modules
+technical-tests/StarwarsTopTrumps/node_modules
+technical-tests/StarwarsTopTrumps/swapi-graphql/node_modules
