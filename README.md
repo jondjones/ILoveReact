@@ -13,12 +13,15 @@ This is an open-source repo.  If you would like to add something or correct a mi
 ## Projects
 
 -   [Album Listing](./technical-tests/AlbumListing)
+-   [DisplayATable](./technical-tests/DisplayATable)
 -   [Hacker News](./technical-tests/HackerNews)
 -   [LoginForm](./technical-tests/LoginForm)
--   [Monster Wars](./technical-tests/MonsterWars)
+-   [Monster Wars](./technical-tests/MonsterAttack)
 -   [NodeAPIWithJSON](./technical-tests/NodeAPIWithJSON)
--   [RenderTable](./technical-tests/RenderTable)
--   [StarCards](./technical-tests/StarCards) Written using type-script, styled-components and react testing library
+-   [Starwars Top Trumps](./technical-tests/StarwarsTopTrumps/) Written using type-script, styled-components and react testing library
+
+## Apps
+
 -   [Portfolio](./apps/portfolio)
 -   [Todo App](./apps/todo-app)
 -   [Web-pack Boilerplate](./apps/webpack-boilerplate)

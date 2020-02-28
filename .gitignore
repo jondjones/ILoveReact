@@ -1,5 +1,6 @@
 .DS_Store
 technical-tests/AlbumnListing/node_modules
+technical-tests/DisplayATable/node_modules
 technical-tests/HackerNews/node_modules
 technical-tests/LoginForm/node_modules
 technical-tests/MonsterAttack/node_modules
