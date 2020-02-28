@@ -8,6 +8,7 @@ This is an open-source repo.  If you would like to add something or correct a mi
 
 # :rocket: Resources :rocket:
 
+-   [Component Library](./storybook/)
 -   [Resources](./RESOURCES.md)
 
 ## Projects
