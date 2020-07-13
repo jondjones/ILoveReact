@@ -13,19 +13,19 @@ This is an open-source repo.  If you would like to add something or correct a mi
 
 ## Projects
 
--   [Album Listing](./technical-tests/AlbumListing)
--   [DisplayATable](./technical-tests/DisplayATable)
--   [Hacker News](./technical-tests/HackerNews)
--   [LoginForm](./technical-tests/LoginForm)
--   [Monster Wars](./technical-tests/MonsterAttack)
--   [NodeAPIWithJSON](./technical-tests/NodeAPIWithJSON)
--   [Starwars Top Trumps](./technical-tests/StarwarsTopTrumps/) Written using type-script, styled-components and react testing library
-
-## Apps
-
--   [Portfolio](./apps/portfolio)
+-   [Album Listing](./projects/AlbumListing)
+-   [DisplayATable](./projects/DisplayATable)
+-   [Hacker News](./projects/HackerNews)
+-   [LoginForm](./projects/LoginForm)
+-   [Monster Wars](./projects/MonsterAttack)
+-   [NodeAPIWithJSON](./projects/NodeAPIWithJSON)
+-   [Portfolio Website](./apps/Portfolio-Website)
+-   [Starwars Top Trumps](./projects/StarwarsTopTrumps/) Written using type-script, styled-components and react testing library
 -   [Todo App](./apps/todo-app)
--   [Web-pack Boilerplate](./apps/webpack-boilerplate)
+
+## Good Practices
+
+-   [Web-pack Boilerplate](./good-practice/webpack-boilerplate)
 
 # Contributing
 

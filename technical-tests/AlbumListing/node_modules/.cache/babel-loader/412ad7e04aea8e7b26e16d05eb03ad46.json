@@ -1,1 +1,0 @@
-{"ast":null,"code":"var global = require('../internals/global');\n\nmodule.exports = global.Promise;","map":null,"metadata":{},"sourceType":"script"}

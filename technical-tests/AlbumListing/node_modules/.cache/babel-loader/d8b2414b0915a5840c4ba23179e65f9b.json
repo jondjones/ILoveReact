@@ -1,1 +1,0 @@
-{"ast":null,"code":"var defineWellKnownSymbol = require('../internals/define-well-known-symbol'); // `Symbol.dispose` well-known symbol\n// https://github.com/tc39/proposal-using-statement\n\n\ndefineWellKnownSymbol('dispose');","map":null,"metadata":{},"sourceType":"script"}
