@@ -1,8 +1,32 @@
 
 # Resources
 
-## Tutorials
+This road-map gives you a high-level overview of everything you need to get started with React.JS:
 
+#### 💾 Getting Started Guide
+
+This list is composed of my most comprehensive resource to help you get started with react.js:
+
+- [React Libraries To Use In 2021](https://www.jondjones.com/frontend/react/react-tutorials/react-libraries-to-use-in-2021/)
+
+#### 💽 Useful Code Repositories
+
+If you want to accelerate your learning, these repositories and starter-kits will help you out:
+
+- [React Coding Challenges](https://github.com/jondjones/ILoveReact)
+- [I 💖 Javascript](https://github.com/jondjones/ILoveJavascript)
+
+#### 🎬  Useful  Links
+
+If my video series is not enough to get you started then these additional resources should help:
+
+- [ReactJS Official Blog](https://reactjs.org/blog/all.html/)
+- [LogRocket Blog](https://blog.logrocket.com/)
+- [Epic React](https://epicreact.dev/)
+- [Overreacted.io/](https://overreacted.io/)
+- [Dev Community](https://dev.to/t/react)
+- [Robin Wieruch's Blog](https://www.robinwieruch.de/blog)
+- [Flavio Copes Blog](https://flaviocopes.com/tags/react/)
 - [Getting Started With React](https://reactjs.org/docs/getting-started.html)
 - [10 Reasons why I moved from Angular to React](https://www.robinwieruch.de/reasons-why-i-moved-from-angular-to-react/)
 - [React Libraries To Use in 2020](https://www.robinwieruch.de/react-libraries/)
@@ -17,17 +41,42 @@
 - [Testing React Apps](https://jestjs.io/docs/en/tutorial-react)
 - [Why Do We Write super(props)?](https://overreacted.io/why-do-we-write-super-props/)
 
-## Videos
+#### 📹 Videos
+
+One of the best ways to get up-to-speed with a new framework or language is video:
 
 - [Fun with React Hooks - Michael Jackson and Ryan Florence](https://www.youtube.com/watch?v=1jWS7cCuUXw)
-- :star: [React Today and Tomorrow and 90% Cleaner React With Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM)
-- [React: CSS in your JS by Christopher Chedeau](https://vimeo.com/116209150)
 
-## Design Patterns
+#### 🔍 Themes
 
-- [React Patterns](https://reactpatterns.com/)
+This list of themes will help accelerate your development:
 
-## React Documentation
+- [Bootstrap Dash Themes](https://www.bootstrapdash.com/react-admin-templates/)
+- [Coded Themes Templates](https://codedthemes.com/item/category/templates/react-admin-templates/)
+- [Wrap Pixel Themes](https://www.wrappixel.com/templates/category/react-templates/)
+- [Themes](https://themeforest.net/search/react%20templates)
+
+#### 🎫Events & Meet-ups
+
+Learn from the community:
+
+- [Time To React](https://www.meetup.com/meetup-group-timetoreact/)
+- [JS Roundabout](https://www.meetup.com/the-JS-Roundabout/)
+- [JS Monthly](https://www.meetup.com/js-monthly/)
+- [reactiveconf.com/](https://reactiveconf.com/)
+- [reactjsday](https://2020.reactjsday.it/)
+- [Byteconf React](https://www.bytesized.xyz/conferences/byteconf-react-2020/)
+- [Community Conferences](https://reactjs.org/community/conferences.html)
+
+#### 🎧 Podcasts
+
+Below lists some EPIC podcasts you can checkout to learn more about react.js:
+
+- [React 30](https://react30.com/)
+- [React Podcast](https://reactpodcast.simplecast.com/)
+- [React Roundup](https://dev.to/reactroundup)
+
+#### 🖨️ React Documentation
 
 - [React Component](https://reactjs.org/docs/react-component.html)
 - [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
